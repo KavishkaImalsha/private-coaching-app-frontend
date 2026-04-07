@@ -1,9 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { Eye, EyeOff, Mail, LockKeyhole } from 'lucide-react'
-import { FcGoogle } from "react-icons/fc";
-import { FaApple } from "react-icons/fa";
-import { VscAccount } from "react-icons/vsc";
+import LogInSignupOptions from '../components/LogInSignupOptions';
 
 const LoginPage = () => {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
@@ -52,22 +50,7 @@ const LoginPage = () => {
             <hr className='w-[40%]'/>
         </div>
 
-        <div className='space-y-2'>
-            <button className='border-0 rounded-full p-2 md:p-3 bg-[#f0f3ec] hover:bg-gray-200 w-full flex justify-center gap-2 hover:cursor-pointer'>
-                <FcGoogle className='w-6 h-6'/>
-                <span className='text-sm md:text-md font-bold'>Continue with Google</span>
-            </button>
-
-            <button className='border-0 rounded-full p-2 md:p-3 bg-[#b0e77f] hover:bg-[#aacf8a] w-full flex justify-center gap-2 hover:cursor-pointer'>
-                <FaApple className='w-6 h-6'/>
-                <span className='text-sm md:text-md font-bold'>Continue with Apple</span>
-            </button>
-
-            <button className='border-0 rounded-full p-2 md:p-3 bg-[#f0f3ec] hover:bg-gray-200 w-full flex justify-center gap-2 hover:cursor-pointer'>
-                <VscAccount className='w-6 h-6'/>
-                <span className='text-sm md:text-md font-bold'>Continue As Guest</span>
-            </button>
-        </div>
+        <LogInSignupOptions/>
 
         <div className='mt-2'>
             <p className='text-center text-sm text-[#686963]'>Don't have an account? <button className='hover:text-gray-700 hover:cursor-pointer'>Sign Up</button></p>
