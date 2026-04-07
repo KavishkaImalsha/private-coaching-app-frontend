@@ -69,7 +69,7 @@ Follow these steps to get the project running locally on your machine.
 
 ### 2. Backend Setup
 
-1. Clone the frontend repository:
+1. Clone the backend repository:
 ```bash
    git clone https://github.com/KavishkaImalsha/private-coaching-app-backend.git
    cd private-coaching-app-backend
@@ -78,7 +78,7 @@ Follow these steps to get the project running locally on your machine.
 ```bash
     npm install
 
-3. Create a .env.local file in the root of the frontend directory:
+3. Create a .env.local file in the root of the backend directory:
     PORT=5001
     JWT_SECRET=your_super_secret_jwt_key
     GOOGLE_CLIENT_ID=your_google_client_id
