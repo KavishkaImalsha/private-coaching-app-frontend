@@ -28,7 +28,7 @@ const SignupPage = () => {
         <LogInSignupOptions/>
 
         <div className='mt-2'>
-            <p className='text-center text-sm text-[#686963]'>Already have an account? <button className='font-bold hover:text-gray-700 hover:cursor-pointer'>Log In</button></p>
+            <p className='text-center text-sm text-[#686963]'>Already have an account? <button className='font-bold hover:text-gray-700 hover:cursor-pointer' onClick={() => window.location.href = '/login'}>Log In</button></p>
         </div>
     </div>
   )
