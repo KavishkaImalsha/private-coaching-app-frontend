@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import LogInSignupOptions from '../components/LogInSignupOptions';
 import Image from 'next/image';
