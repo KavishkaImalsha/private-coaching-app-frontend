@@ -53,7 +53,7 @@ const LoginPage = () => {
         <LogInSignupOptions/>
 
         <div className='mt-2'>
-            <p className='text-center text-sm text-[#686963]'>Don't have an account? <button className='hover:text-gray-700 hover:cursor-pointer'>Sign Up</button></p>
+            <p className='text-center text-sm text-[#686963]'>Don't have an account? <button className='font-bold hover:text-gray-700 hover:cursor-pointer'>Sign Up</button></p>
         </div>
     </div>
   )
